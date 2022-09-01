@@ -1,266 +1,104 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{10E000EC-B776-411B-93E0-6669C1C22912}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "corePackages", "corePackages", "{6A56547A-CDDB-4BA4-A2AE-C89FC3567698}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core.Application", "Core.Application", "{2B6DD97B-B43A-44C8-908E-8B99C53B1BE1}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Application\Core.Application.csproj = src\corePackages\Core.Application\Core.Application.csproj
-	EndProjectSection
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kodlama.io.Devs", "Kodlama.io.Devs", "{4D8B5CB5-10B0-4D7E-8171-1BD53400C3A8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core.CrossCuttingConcers", "Core.CrossCuttingConcers", "{1571A732-3A90-45C2-9CF2-7FA3DF301E1F}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.CrossCuttingConcers\Core.CrossCuttingConcerns.csproj = src\corePackages\Core.CrossCuttingConcers\Core.CrossCuttingConcerns.csproj
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\Kodlama.io.Devs\Application\Application.csproj", "{719870DC-084E-4DE5-9B04-71E3158BD62F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core.ElasticSearch", "Core.ElasticSearch", "{399E3CB3-F746-4D3D-98C9-A03E5AAE9023}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.ElasticSearch\Core.ElasticSearch.csproj = src\corePackages\Core.ElasticSearch\Core.ElasticSearch.csproj
-		src\corePackages\Core.ElasticSearch\ElasticSearchManager.cs = src\corePackages\Core.ElasticSearch\ElasticSearchManager.cs
-		src\corePackages\Core.ElasticSearch\IElasticSearch.cs = src\corePackages\Core.ElasticSearch\IElasticSearch.cs
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "src\Kodlama.io.Devs\Domain\Domain.csproj", "{01408960-0C71-4EAD-BCBE-F056266FB3A0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core.Mailing", "Core.Mailing", "{C1F241E2-47FF-420B-B29B-8AE8894145E9}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Mailing\Core.Mailing.csproj = src\corePackages\Core.Mailing\Core.Mailing.csproj
-		src\corePackages\Core.Mailing\IMailService.cs = src\corePackages\Core.Mailing\IMailService.cs
-		src\corePackages\Core.Mailing\Mail.cs = src\corePackages\Core.Mailing\Mail.cs
-		src\corePackages\Core.Mailing\MailSettings.cs = src\corePackages\Core.Mailing\MailSettings.cs
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistance", "src\Kodlama.io.Devs\Persistance\Persistance.csproj", "{46019D79-0EF5-416A-BE05-CA27D62405FF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core.Persistence", "Core.Persistence", "{92E845EF-8B69-4880-BD02-20CC4D84997A}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Persistence\Core.Persistence.csproj = src\corePackages\Core.Persistence\Core.Persistence.csproj
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\Kodlama.io.Devs\Infrastructure\Infrastructure.csproj", "{CA74080B-1D8C-4600-AB6B-F08C6484E17B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core.Security", "Core.Security", "{1AA59FB8-18F6-48FF-B52B-5D1538EAFC08}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Security\Core.Security.csproj = src\corePackages\Core.Security\Core.Security.csproj
-		src\corePackages\Core.Security\SecurityServiceRegistration.cs = src\corePackages\Core.Security\SecurityServiceRegistration.cs
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "src\Kodlama.io.Devs\WebAPI\WebAPI.csproj", "{6697C4CB-0D54-4883-8230-8DDE4DDC84CE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pipelines", "Pipelines", "{4844C84B-E2E4-4FC6-8AD5-59AAE1C1C220}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Application", "src\corePackages\Core.Application\Core.Application.csproj", "{3AFF9464-B8E0-4849-81DD-F1E36918FC36}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authorization", "Authorization", "{178879DA-3E3C-405E-A3E2-7F2E6AE99C36}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Application\Pipelines\Authorization\AuthorizationBehavior.cs = src\corePackages\Core.Application\Pipelines\Authorization\AuthorizationBehavior.cs
-		src\corePackages\Core.Application\Pipelines\Authorization\ISecuredRequest.cs = src\corePackages\Core.Application\Pipelines\Authorization\ISecuredRequest.cs
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.CrossCuttingConcerns", "src\corePackages\Core.CrossCuttingConcerns\Core.CrossCuttingConcerns.csproj", "{7CD86F15-C01A-4FCD-B4E8-728AD1928D10}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Caching", "Caching", "{5161233A-5B21-418C-92C8-D305DFCFBF0C}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Application\Pipelines\Caching\CacheRemovingBehavior.cs = src\corePackages\Core.Application\Pipelines\Caching\CacheRemovingBehavior.cs
-		src\corePackages\Core.Application\Pipelines\Caching\CacheSettings.cs = src\corePackages\Core.Application\Pipelines\Caching\CacheSettings.cs
-		src\corePackages\Core.Application\Pipelines\Caching\CachingBehavior.cs = src\corePackages\Core.Application\Pipelines\Caching\CachingBehavior.cs
-		src\corePackages\Core.Application\Pipelines\Caching\ICachableRequest.cs = src\corePackages\Core.Application\Pipelines\Caching\ICachableRequest.cs
-		src\corePackages\Core.Application\Pipelines\Caching\ICacheRemoverRequest.cs = src\corePackages\Core.Application\Pipelines\Caching\ICacheRemoverRequest.cs
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.ElasticSearch", "src\corePackages\Core.ElasticSearch\Core.ElasticSearch.csproj", "{B71A8AA9-C034-405F-9928-E1C1983219C0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{28CEBF69-3A20-459C-A909-FF30CC23C8CF}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Application\Pipelines\Logging\ILoggableRequest.cs = src\corePackages\Core.Application\Pipelines\Logging\ILoggableRequest.cs
-		src\corePackages\Core.Application\Pipelines\Logging\LoggingBehavior.cs = src\corePackages\Core.Application\Pipelines\Logging\LoggingBehavior.cs
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Mailing", "src\corePackages\Core.Mailing\Core.Mailing.csproj", "{65CEFB40-90BA-4A47-98F5-F50DA4718946}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Validation", "Validation", "{D5F9F25F-5A83-41F8-8A0C-DDB8171143A0}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Application\Pipelines\Validation\RequestValidationBehavior.cs = src\corePackages\Core.Application\Pipelines\Validation\RequestValidationBehavior.cs
-		src\corePackages\Core.Application\Pipelines\Validation\ValidationTool.cs = src\corePackages\Core.Application\Pipelines\Validation\ValidationTool.cs
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Persistence", "src\corePackages\Core.Persistence\Core.Persistence.csproj", "{6A280EB9-7172-4639-8D9C-0E6DA91E6555}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requests", "Requests", "{A382B18B-A689-4832-9EF3-A8644DAA5F32}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Application\Requests\PageRequest.cs = src\corePackages\Core.Application\Requests\PageRequest.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exceptions", "Exceptions", "{874EFFE8-C4FC-4BDB-85F1-CB78B5A67A2E}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.CrossCuttingConcers\Exceptions\AuthorizationException.cs = src\corePackages\Core.CrossCuttingConcers\Exceptions\AuthorizationException.cs
-		src\corePackages\Core.CrossCuttingConcers\Exceptions\AuthorizationProblemDetails.cs = src\corePackages\Core.CrossCuttingConcers\Exceptions\AuthorizationProblemDetails.cs
-		src\corePackages\Core.CrossCuttingConcers\Exceptions\BusinessException.cs = src\corePackages\Core.CrossCuttingConcers\Exceptions\BusinessException.cs
-		src\corePackages\Core.CrossCuttingConcers\Exceptions\BusinessProblemDetails.cs = src\corePackages\Core.CrossCuttingConcers\Exceptions\BusinessProblemDetails.cs
-		src\corePackages\Core.CrossCuttingConcers\Exceptions\ExceptionMiddleware.cs = src\corePackages\Core.CrossCuttingConcers\Exceptions\ExceptionMiddleware.cs
-		src\corePackages\Core.CrossCuttingConcers\Exceptions\ExceptionMiddlewareExtensions.cs = src\corePackages\Core.CrossCuttingConcers\Exceptions\ExceptionMiddlewareExtensions.cs
-		src\corePackages\Core.CrossCuttingConcers\Exceptions\ValidationProblemDetails.cs = src\corePackages\Core.CrossCuttingConcers\Exceptions\ValidationProblemDetails.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{12F0778E-D923-49ED-AC9C-2F24A6478C41}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.CrossCuttingConcers\Logging\LogDetail.cs = src\corePackages\Core.CrossCuttingConcers\Logging\LogDetail.cs
-		src\corePackages\Core.CrossCuttingConcers\Logging\LogDetailWithException.cs = src\corePackages\Core.CrossCuttingConcers\Logging\LogDetailWithException.cs
-		src\corePackages\Core.CrossCuttingConcers\Logging\LogParameter.cs = src\corePackages\Core.CrossCuttingConcers\Logging\LogParameter.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serilog", "Serilog", "{41687AF7-5420-43C5-8B5F-ACB9C812C8D6}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.CrossCuttingConcers\Logging\Serilog\LoggerServiceBase.cs = src\corePackages\Core.CrossCuttingConcers\Logging\Serilog\LoggerServiceBase.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigurationModels", "ConfigurationModels", "{B0A1F73E-F63E-43C3-A00D-E8A8DBBE15F4}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.CrossCuttingConcers\Logging\Serilog\ConfigurationModels\FileLogConfiguration.cs = src\corePackages\Core.CrossCuttingConcers\Logging\Serilog\ConfigurationModels\FileLogConfiguration.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logger", "Logger", "{DA4998DD-B0D9-4B24-8FE5-8B5294195475}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.CrossCuttingConcers\Logging\Serilog\Logger\FileLogger.cs = src\corePackages\Core.CrossCuttingConcers\Logging\Serilog\Logger\FileLogger.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messages", "Messages", "{251498BE-8AE7-437D-B486-0B7B67437E74}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.CrossCuttingConcers\Logging\Serilog\Messages\SerilogMessages.cs = src\corePackages\Core.CrossCuttingConcers\Logging\Serilog\Messages\SerilogMessages.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{647D9336-8BF3-4CF6-BDA5-808099BE034E}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.ElasticSearch\Models\ElasticSearchConfig.cs = src\corePackages\Core.ElasticSearch\Models\ElasticSearchConfig.cs
-		src\corePackages\Core.ElasticSearch\Models\ElasticSearchGetModel.cs = src\corePackages\Core.ElasticSearch\Models\ElasticSearchGetModel.cs
-		src\corePackages\Core.ElasticSearch\Models\ElasticSearchInsertManyModel.cs = src\corePackages\Core.ElasticSearch\Models\ElasticSearchInsertManyModel.cs
-		src\corePackages\Core.ElasticSearch\Models\ElasticSearchInsertUpdateModel.cs = src\corePackages\Core.ElasticSearch\Models\ElasticSearchInsertUpdateModel.cs
-		src\corePackages\Core.ElasticSearch\Models\ElasticSearchModel.cs = src\corePackages\Core.ElasticSearch\Models\ElasticSearchModel.cs
-		src\corePackages\Core.ElasticSearch\Models\ElasticSearchResult.cs = src\corePackages\Core.ElasticSearch\Models\ElasticSearchResult.cs
-		src\corePackages\Core.ElasticSearch\Models\IElasticSearchResult.cs = src\corePackages\Core.ElasticSearch\Models\IElasticSearchResult.cs
-		src\corePackages\Core.ElasticSearch\Models\IndexModel.cs = src\corePackages\Core.ElasticSearch\Models\IndexModel.cs
-		src\corePackages\Core.ElasticSearch\Models\SearchByFieldParameters.cs = src\corePackages\Core.ElasticSearch\Models\SearchByFieldParameters.cs
-		src\corePackages\Core.ElasticSearch\Models\SearchByQueryParameters.cs = src\corePackages\Core.ElasticSearch\Models\SearchByQueryParameters.cs
-		src\corePackages\Core.ElasticSearch\Models\SearchParameters.cs = src\corePackages\Core.ElasticSearch\Models\SearchParameters.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MailKitImplementations", "MailKitImplementations", "{330C4225-DEBD-4939-8603-99378510A65A}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Mailing\MailKitImplementations\MailKitMailService.cs = src\corePackages\Core.Mailing\MailKitImplementations\MailKitMailService.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamic", "Dynamic", "{A82E2972-F496-48D1-8F56-CE4D2D976059}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Persistence\Dynamic\Dynamic.cs = src\corePackages\Core.Persistence\Dynamic\Dynamic.cs
-		src\corePackages\Core.Persistence\Dynamic\Filter.cs = src\corePackages\Core.Persistence\Dynamic\Filter.cs
-		src\corePackages\Core.Persistence\Dynamic\IQueryableDynamicFilterExtensions.cs = src\corePackages\Core.Persistence\Dynamic\IQueryableDynamicFilterExtensions.cs
-		src\corePackages\Core.Persistence\Dynamic\Sort.cs = src\corePackages\Core.Persistence\Dynamic\Sort.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Paging", "Paging", "{1DBC5536-1BD1-4586-A2B4-D3FF3BCC1711}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Persistence\Paging\BasePageableModel.cs = src\corePackages\Core.Persistence\Paging\BasePageableModel.cs
-		src\corePackages\Core.Persistence\Paging\IPaginate.cs = src\corePackages\Core.Persistence\Paging\IPaginate.cs
-		src\corePackages\Core.Persistence\Paging\IQueryablePaginateExtensions.cs = src\corePackages\Core.Persistence\Paging\IQueryablePaginateExtensions.cs
-		src\corePackages\Core.Persistence\Paging\Paginate.cs = src\corePackages\Core.Persistence\Paging\Paginate.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{105253F2-EF68-475A-9A7C-EC6C1E7AC168}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Persistence\Repositories\EfRepositoryBase.cs = src\corePackages\Core.Persistence\Repositories\EfRepositoryBase.cs
-		src\corePackages\Core.Persistence\Repositories\Entity.cs = src\corePackages\Core.Persistence\Repositories\Entity.cs
-		src\corePackages\Core.Persistence\Repositories\IAsyncRepository.cs = src\corePackages\Core.Persistence\Repositories\IAsyncRepository.cs
-		src\corePackages\Core.Persistence\Repositories\IQuery.cs = src\corePackages\Core.Persistence\Repositories\IQuery.cs
-		src\corePackages\Core.Persistence\Repositories\IRepository.cs = src\corePackages\Core.Persistence\Repositories\IRepository.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dtos", "Dtos", "{F79B2BEA-8446-4AE9-B928-8D097DFC69D2}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Security\Dtos\UserForLoginDto.cs = src\corePackages\Core.Security\Dtos\UserForLoginDto.cs
-		src\corePackages\Core.Security\Dtos\UserForRegisterDto.cs = src\corePackages\Core.Security\Dtos\UserForRegisterDto.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailAuthenticator", "EmailAuthenticator", "{0CFF2292-58B5-424E-851B-1F9823D49DEB}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Security\EmailAuthenticator\EmailAuthenticatorHelper.cs = src\corePackages\Core.Security\EmailAuthenticator\EmailAuthenticatorHelper.cs
-		src\corePackages\Core.Security\EmailAuthenticator\IEmailAuthenticatorHelper.cs = src\corePackages\Core.Security\EmailAuthenticator\IEmailAuthenticatorHelper.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Encryption", "Encryption", "{9880C4BF-7F6B-4DC3-AD23-FCD8508046C7}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Security\Encryption\SecurityKeyHelper.cs = src\corePackages\Core.Security\Encryption\SecurityKeyHelper.cs
-		src\corePackages\Core.Security\Encryption\SigningCredentialsHelper.cs = src\corePackages\Core.Security\Encryption\SigningCredentialsHelper.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{7E34395F-DAE0-4422-B251-2AA8867CEA8E}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Security\Entities\EmailAuthenticator.cs = src\corePackages\Core.Security\Entities\EmailAuthenticator.cs
-		src\corePackages\Core.Security\Entities\OperationClaim.cs = src\corePackages\Core.Security\Entities\OperationClaim.cs
-		src\corePackages\Core.Security\Entities\OtpAuthenticator.cs = src\corePackages\Core.Security\Entities\OtpAuthenticator.cs
-		src\corePackages\Core.Security\Entities\RefreshToken.cs = src\corePackages\Core.Security\Entities\RefreshToken.cs
-		src\corePackages\Core.Security\Entities\User.cs = src\corePackages\Core.Security\Entities\User.cs
-		src\corePackages\Core.Security\Entities\UserOperationClaim.cs = src\corePackages\Core.Security\Entities\UserOperationClaim.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enums", "Enums", "{D9D82C2F-C3FF-4652-9B5F-7685D8A5F395}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Security\Enums\AuthenticatorType.cs = src\corePackages\Core.Security\Enums\AuthenticatorType.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{ADF26F97-CB48-4602-B274-A3725110C003}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Security\Extensions\ClaimExtensions.cs = src\corePackages\Core.Security\Extensions\ClaimExtensions.cs
-		src\corePackages\Core.Security\Extensions\ClaimsPrincipalExtensions.cs = src\corePackages\Core.Security\Extensions\ClaimsPrincipalExtensions.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hashing", "Hashing", "{4E0A6C1A-9D38-4A61-9B41-55F998F47F3F}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Security\Hashing\HashingHelper.cs = src\corePackages\Core.Security\Hashing\HashingHelper.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JWT", "JWT", "{073B4D8E-F216-4031-AC39-0460FAC7AD5A}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Security\JWT\AccessToken.cs = src\corePackages\Core.Security\JWT\AccessToken.cs
-		src\corePackages\Core.Security\JWT\ITokenHelper.cs = src\corePackages\Core.Security\JWT\ITokenHelper.cs
-		src\corePackages\Core.Security\JWT\JwtHelper.cs = src\corePackages\Core.Security\JWT\JwtHelper.cs
-		src\corePackages\Core.Security\JWT\TokenOptions.cs = src\corePackages\Core.Security\JWT\TokenOptions.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OtpAuthenticator", "OtpAuthenticator", "{B4D58885-B814-4479-9A7A-E85A0F670BD3}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Security\OtpAuthenticator\IOtpAuthenticatorHelper.cs = src\corePackages\Core.Security\OtpAuthenticator\IOtpAuthenticatorHelper.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OtpNet", "OtpNet", "{E2CB8BDF-98E2-47A6-BCB2-D5987D4011E3}"
-	ProjectSection(SolutionItems) = preProject
-		src\corePackages\Core.Security\OtpAuthenticator\OtpNet\OtpNetOtpAuthenticatorHelper.cs = src\corePackages\Core.Security\OtpAuthenticator\OtpNet\OtpNetOtpAuthenticatorHelper.cs
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Security", "src\corePackages\Core.Security\Core.Security.csproj", "{E0ABAB3E-4E95-47B0-8A11-ABA96E769BA1}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{719870DC-084E-4DE5-9B04-71E3158BD62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{719870DC-084E-4DE5-9B04-71E3158BD62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{719870DC-084E-4DE5-9B04-71E3158BD62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{719870DC-084E-4DE5-9B04-71E3158BD62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01408960-0C71-4EAD-BCBE-F056266FB3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01408960-0C71-4EAD-BCBE-F056266FB3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01408960-0C71-4EAD-BCBE-F056266FB3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01408960-0C71-4EAD-BCBE-F056266FB3A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46019D79-0EF5-416A-BE05-CA27D62405FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46019D79-0EF5-416A-BE05-CA27D62405FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46019D79-0EF5-416A-BE05-CA27D62405FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46019D79-0EF5-416A-BE05-CA27D62405FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA74080B-1D8C-4600-AB6B-F08C6484E17B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA74080B-1D8C-4600-AB6B-F08C6484E17B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA74080B-1D8C-4600-AB6B-F08C6484E17B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA74080B-1D8C-4600-AB6B-F08C6484E17B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6697C4CB-0D54-4883-8230-8DDE4DDC84CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6697C4CB-0D54-4883-8230-8DDE4DDC84CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6697C4CB-0D54-4883-8230-8DDE4DDC84CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6697C4CB-0D54-4883-8230-8DDE4DDC84CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AFF9464-B8E0-4849-81DD-F1E36918FC36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AFF9464-B8E0-4849-81DD-F1E36918FC36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AFF9464-B8E0-4849-81DD-F1E36918FC36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AFF9464-B8E0-4849-81DD-F1E36918FC36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD86F15-C01A-4FCD-B4E8-728AD1928D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD86F15-C01A-4FCD-B4E8-728AD1928D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD86F15-C01A-4FCD-B4E8-728AD1928D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD86F15-C01A-4FCD-B4E8-728AD1928D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71A8AA9-C034-405F-9928-E1C1983219C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71A8AA9-C034-405F-9928-E1C1983219C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71A8AA9-C034-405F-9928-E1C1983219C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71A8AA9-C034-405F-9928-E1C1983219C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65CEFB40-90BA-4A47-98F5-F50DA4718946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65CEFB40-90BA-4A47-98F5-F50DA4718946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65CEFB40-90BA-4A47-98F5-F50DA4718946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65CEFB40-90BA-4A47-98F5-F50DA4718946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A280EB9-7172-4639-8D9C-0E6DA91E6555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A280EB9-7172-4639-8D9C-0E6DA91E6555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A280EB9-7172-4639-8D9C-0E6DA91E6555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A280EB9-7172-4639-8D9C-0E6DA91E6555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0ABAB3E-4E95-47B0-8A11-ABA96E769BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0ABAB3E-4E95-47B0-8A11-ABA96E769BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0ABAB3E-4E95-47B0-8A11-ABA96E769BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0ABAB3E-4E95-47B0-8A11-ABA96E769BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6A56547A-CDDB-4BA4-A2AE-C89FC3567698} = {10E000EC-B776-411B-93E0-6669C1C22912}
-		{2B6DD97B-B43A-44C8-908E-8B99C53B1BE1} = {6A56547A-CDDB-4BA4-A2AE-C89FC3567698}
-		{1571A732-3A90-45C2-9CF2-7FA3DF301E1F} = {6A56547A-CDDB-4BA4-A2AE-C89FC3567698}
-		{399E3CB3-F746-4D3D-98C9-A03E5AAE9023} = {6A56547A-CDDB-4BA4-A2AE-C89FC3567698}
-		{C1F241E2-47FF-420B-B29B-8AE8894145E9} = {6A56547A-CDDB-4BA4-A2AE-C89FC3567698}
-		{92E845EF-8B69-4880-BD02-20CC4D84997A} = {6A56547A-CDDB-4BA4-A2AE-C89FC3567698}
-		{1AA59FB8-18F6-48FF-B52B-5D1538EAFC08} = {6A56547A-CDDB-4BA4-A2AE-C89FC3567698}
-		{4844C84B-E2E4-4FC6-8AD5-59AAE1C1C220} = {2B6DD97B-B43A-44C8-908E-8B99C53B1BE1}
-		{178879DA-3E3C-405E-A3E2-7F2E6AE99C36} = {4844C84B-E2E4-4FC6-8AD5-59AAE1C1C220}
-		{5161233A-5B21-418C-92C8-D305DFCFBF0C} = {4844C84B-E2E4-4FC6-8AD5-59AAE1C1C220}
-		{28CEBF69-3A20-459C-A909-FF30CC23C8CF} = {4844C84B-E2E4-4FC6-8AD5-59AAE1C1C220}
-		{D5F9F25F-5A83-41F8-8A0C-DDB8171143A0} = {4844C84B-E2E4-4FC6-8AD5-59AAE1C1C220}
-		{A382B18B-A689-4832-9EF3-A8644DAA5F32} = {2B6DD97B-B43A-44C8-908E-8B99C53B1BE1}
-		{874EFFE8-C4FC-4BDB-85F1-CB78B5A67A2E} = {1571A732-3A90-45C2-9CF2-7FA3DF301E1F}
-		{12F0778E-D923-49ED-AC9C-2F24A6478C41} = {1571A732-3A90-45C2-9CF2-7FA3DF301E1F}
-		{41687AF7-5420-43C5-8B5F-ACB9C812C8D6} = {12F0778E-D923-49ED-AC9C-2F24A6478C41}
-		{B0A1F73E-F63E-43C3-A00D-E8A8DBBE15F4} = {41687AF7-5420-43C5-8B5F-ACB9C812C8D6}
-		{DA4998DD-B0D9-4B24-8FE5-8B5294195475} = {41687AF7-5420-43C5-8B5F-ACB9C812C8D6}
-		{251498BE-8AE7-437D-B486-0B7B67437E74} = {41687AF7-5420-43C5-8B5F-ACB9C812C8D6}
-		{647D9336-8BF3-4CF6-BDA5-808099BE034E} = {399E3CB3-F746-4D3D-98C9-A03E5AAE9023}
-		{330C4225-DEBD-4939-8603-99378510A65A} = {C1F241E2-47FF-420B-B29B-8AE8894145E9}
-		{A82E2972-F496-48D1-8F56-CE4D2D976059} = {92E845EF-8B69-4880-BD02-20CC4D84997A}
-		{1DBC5536-1BD1-4586-A2B4-D3FF3BCC1711} = {92E845EF-8B69-4880-BD02-20CC4D84997A}
-		{105253F2-EF68-475A-9A7C-EC6C1E7AC168} = {92E845EF-8B69-4880-BD02-20CC4D84997A}
-		{F79B2BEA-8446-4AE9-B928-8D097DFC69D2} = {1AA59FB8-18F6-48FF-B52B-5D1538EAFC08}
-		{0CFF2292-58B5-424E-851B-1F9823D49DEB} = {1AA59FB8-18F6-48FF-B52B-5D1538EAFC08}
-		{9880C4BF-7F6B-4DC3-AD23-FCD8508046C7} = {1AA59FB8-18F6-48FF-B52B-5D1538EAFC08}
-		{7E34395F-DAE0-4422-B251-2AA8867CEA8E} = {1AA59FB8-18F6-48FF-B52B-5D1538EAFC08}
-		{D9D82C2F-C3FF-4652-9B5F-7685D8A5F395} = {1AA59FB8-18F6-48FF-B52B-5D1538EAFC08}
-		{ADF26F97-CB48-4602-B274-A3725110C003} = {1AA59FB8-18F6-48FF-B52B-5D1538EAFC08}
-		{4E0A6C1A-9D38-4A61-9B41-55F998F47F3F} = {1AA59FB8-18F6-48FF-B52B-5D1538EAFC08}
-		{073B4D8E-F216-4031-AC39-0460FAC7AD5A} = {1AA59FB8-18F6-48FF-B52B-5D1538EAFC08}
-		{B4D58885-B814-4479-9A7A-E85A0F670BD3} = {1AA59FB8-18F6-48FF-B52B-5D1538EAFC08}
-		{E2CB8BDF-98E2-47A6-BCB2-D5987D4011E3} = {B4D58885-B814-4479-9A7A-E85A0F670BD3}
+		{4D8B5CB5-10B0-4D7E-8171-1BD53400C3A8} = {10E000EC-B776-411B-93E0-6669C1C22912}
+		{719870DC-084E-4DE5-9B04-71E3158BD62F} = {4D8B5CB5-10B0-4D7E-8171-1BD53400C3A8}
+		{01408960-0C71-4EAD-BCBE-F056266FB3A0} = {4D8B5CB5-10B0-4D7E-8171-1BD53400C3A8}
+		{46019D79-0EF5-416A-BE05-CA27D62405FF} = {4D8B5CB5-10B0-4D7E-8171-1BD53400C3A8}
+		{CA74080B-1D8C-4600-AB6B-F08C6484E17B} = {4D8B5CB5-10B0-4D7E-8171-1BD53400C3A8}
+		{6697C4CB-0D54-4883-8230-8DDE4DDC84CE} = {4D8B5CB5-10B0-4D7E-8171-1BD53400C3A8}
+		{3AFF9464-B8E0-4849-81DD-F1E36918FC36} = {6A56547A-CDDB-4BA4-A2AE-C89FC3567698}
+		{7CD86F15-C01A-4FCD-B4E8-728AD1928D10} = {6A56547A-CDDB-4BA4-A2AE-C89FC3567698}
+		{B71A8AA9-C034-405F-9928-E1C1983219C0} = {6A56547A-CDDB-4BA4-A2AE-C89FC3567698}
+		{65CEFB40-90BA-4A47-98F5-F50DA4718946} = {6A56547A-CDDB-4BA4-A2AE-C89FC3567698}
+		{6A280EB9-7172-4639-8D9C-0E6DA91E6555} = {6A56547A-CDDB-4BA4-A2AE-C89FC3567698}
+		{E0ABAB3E-4E95-47B0-8A11-ABA96E769BA1} = {6A56547A-CDDB-4BA4-A2AE-C89FC3567698}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F318D2C4-3EE3-4A95-8FFD-D65E4141CDD2}

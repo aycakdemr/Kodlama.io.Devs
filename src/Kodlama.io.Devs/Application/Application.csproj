@@ -6,6 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Features\Socials\Commands\NewFolder\**" />
+    <EmbeddedResource Remove="Features\Socials\Commands\NewFolder\**" />
+    <None Remove="Features\Socials\Commands\NewFolder\**" />
+  </ItemGroup>
+
 	<ItemGroup>
 		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
 		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.2.1" />
@@ -16,6 +22,10 @@
 	  <Folder Include="Features\Frameworks\Constans\" />
 	  <Folder Include="Features\Frameworks\Rules\" />
 	  <Folder Include="Features\ProgLanguages\Constans\" />
+	  <Folder Include="Features\Socials\Constans\" />
+	  <Folder Include="Features\Socials\Models\" />
+	  <Folder Include="Features\Socials\Rules\" />
+	  <Folder Include="Features\Socials\Queries\" />
 	</ItemGroup>
 
 	<ItemGroup>

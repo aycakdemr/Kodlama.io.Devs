@@ -14,6 +14,7 @@ namespace Persistance.Context
     {
         protected IConfiguration Configuration { get; set; }
         public DbSet<ProgLanguage> ProgLanguages { get; set; }
+        public DbSet<Framework> Frameworks { get; set; }
 
 
         public BaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration) : base(dbContextOptions)
@@ -35,8 +36,16 @@ namespace Persistance.Context
                 a.ToTable("ProgLanguages").HasKey(k => k.Id);
                 a.Property(p => p.Id).HasColumnName("Id");
                 a.Property(p => p.Name).HasColumnName("Name");
+                a.HasMany(p => p.Frameworks);
             });
-
+            modelBuilder.Entity<Framework>(a =>
+            {
+                a.ToTable("Frameworks").HasKey(k => k.Id);
+                a.Property(p => p.Id).HasColumnName("Id");
+                a.Property(p => p.Name).HasColumnName("Name");
+                a.Property(p => p.ProgLanguageId).HasColumnName("ProgLanguageId");
+                a.HasOne(p => p.ProgLanguage);
+            });
 
 
             ProgLanguage[] ProgLanguageEntitySeeds = { new(1, "BMW"), new(2, "Mercedes") };

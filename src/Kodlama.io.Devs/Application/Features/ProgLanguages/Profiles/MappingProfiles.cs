@@ -1,5 +1,6 @@
 ﻿using Application.Features.ProgLanguages.Commands.CreateProgLanguage;
 using Application.Features.ProgLanguages.Commands.DeleteProgLanguage;
+using Application.Features.ProgLanguages.Commands.UpdateProgLanguage;
 using Application.Features.ProgLanguages.Dtos;
 using Application.Features.ProgLanguages.Models;
 using AutoMapper;
@@ -21,6 +22,8 @@ namespace Application.Features.ProgLanguages.Profiles
             CreateMap<ProgLanguage, CreateProgLanguageCommand>().ReverseMap();
             CreateMap<ProgLanguage, DeletedProgLanguageDto>().ReverseMap();
             CreateMap<ProgLanguage, DeleteProgLanguageCommand>().ReverseMap();
+            CreateMap<ProgLanguage, UpdatedProgLanguageDto>().ReverseMap();
+            CreateMap<ProgLanguage, UpdateProgLanguageCommand>().ReverseMap();
             CreateMap<IPaginate<ProgLanguage>, ProgLanguageListModel>().ReverseMap();
             CreateMap<ProgLanguage, ProgLanguageListDto>().ReverseMap();
             CreateMap<ProgLanguage, ProgLanguageGetByIdDto>().ReverseMap();

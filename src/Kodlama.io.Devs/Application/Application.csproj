@@ -13,6 +13,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Folder Include="Features\Frameworks\Constans\" />
+	  <Folder Include="Features\Frameworks\Rules\" />
 	  <Folder Include="Features\ProgLanguages\Constans\" />
 	</ItemGroup>
 
